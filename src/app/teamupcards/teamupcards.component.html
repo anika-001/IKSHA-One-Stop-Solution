@@ -1,0 +1,18 @@
+<div class="main">
+  <div class="title">Team up now</div>
+  <div class="addask">
+    <div class="addaskbut" routerLink="/teamupform">
+      Add a teamup
+    </div>
+  </div>
+  <div class="cards">
+    <div class="card" style="width: 18rem;margin: 2vh 2vw 2vh 2vw;" *ngFor = "let x of teamups">
+      <img class="card-img-top" src="../../assets/img/richy-great-MAYEkmn7G6E-unsplash.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{x.payload.doc.data().OccassionName}}</h5>
+        <p class="card-text">{{x.payload.doc.data().DescriptionName}}</p>
+        <p class="card-text">{{x.payload.doc.data().Emailid}}</p>
+      </div>
+    </div>
+  </div>
+</div>

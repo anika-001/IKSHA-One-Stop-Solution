@@ -1,0 +1,21 @@
+<div class="main">
+    <div class="title">
+        Ask Away
+    </div>
+    <div class = "addask">
+        <div class = "addaskbut" routerLink = "/askaway/add">
+            Add a question
+        </div>
+    </div>
+    <div class="content">
+        <div class="descriptions" *ngFor="let x of questions" (click) = "gotoquestion(x.payload.doc.id)">
+            <div class="threads">
+                {{x.payload.doc.data().Question}}
+            </div>
+            <div class="views">
+                {{x.payload.doc.data().NoOfAnswers}} Answers
+            </div>
+        </div>
+
+    </div>
+</div>

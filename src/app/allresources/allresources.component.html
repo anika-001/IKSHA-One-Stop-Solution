@@ -1,0 +1,21 @@
+<div class="main">
+    <div class="title">
+        All Resources
+    </div>
+    <div class = "addask">
+        <div class = "addaskbut" routerLink = "/resources/resourceform">
+            Add a Thread
+        </div>
+    </div>
+    <div class="content">
+        <div class="descriptions" *ngFor="let x of resources" (click) = "next(x.payload.doc.id)">
+            <div class="threads">
+                {{x.payload.doc.data().Thread}}
+            </div>
+            <div class="userno">
+                {{x.payload.doc.data().NoOfResources}} Resources
+            </div>
+        </div>
+
+    </div>
+</div>

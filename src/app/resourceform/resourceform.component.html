@@ -1,0 +1,13 @@
+<div class = "main">
+    <div class = "formcont">
+        <div class = "formtitle">
+            Enter Resource Details
+        </div>
+        <form [formGroup]="addres" class = "form" >
+            <input type = "text" placeholder="Enter Resource Thread Name" class = "input" formControlName = "Thread">
+            <div class = "submitbut" (click) = "submit()">
+                Submit
+            </div>
+        </form>
+    </div>
+</div>

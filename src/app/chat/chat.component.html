@@ -1,0 +1,19 @@
+<div class="main">
+    <div class="title">
+        Chat
+    </div>
+    <div class="chat2">
+        <div class = "chat2but" >
+        </div>
+        <div class = "chatcentre">
+            <div class = "chatcentreone" *ngFor="let x of chats">
+                <div class = "chatname">
+                    {{x.name}}
+                </div>
+                <div class ="lastchat">
+                   {{x.Message}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
