@@ -7,6 +7,10 @@ Made using: Firebase and Angular
 
 ## [Live Link](https://educationapp-8ef4c.web.app/home)
 
+### IDEATION
+[![IKSHA](http://img.youtube.com/vi/XQokN5k28a8/0.jpg)](https://youtu.be/DOW8pFj-A2U)
+
+
 ### DEMO
 [![IKSHA](http://img.youtube.com/vi/XQokN5k28a8/0.jpg)](http://www.youtube.com/watch?v=XQokN5k28a8 "IKSHA")
 
